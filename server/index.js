@@ -21,4 +21,4 @@ app.use("/*", (req, res) => {
 // DONT MISUSE THIS THANKYOU!!
 mongoose.connect('mongodb+srv://root:root@cluster0.pphcshu.mongodb.net/Course789', {});
 
-app.listen(3000, () => console.log('Server running on port 3000'));
+app.listen(3001, () => console.log('Server running on port 3000'));
